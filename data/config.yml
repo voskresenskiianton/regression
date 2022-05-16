@@ -1,0 +1,11 @@
+﻿model_settings:
+  target: ['PHIF', 'SW', 'VSH']
+  features: ['CALI', 'DEN', 'GR', 'RDEP_log']
+  path_to_data: '../data/'
+  train_file_name: 'train.csv'
+  test_file_name: 'test.csv'
+  group: 'WELLNUM'
+  n_bins: 10
+  q_min: 0.02
+  q_max: 0.98
+  seed: 1
